@@ -1,0 +1,6 @@
+Let S be a non empty finite set.
+Assume 2^S set of all subsets of S. Now define the function f over S_1 as follows,
+1.f(\emptyset)=\emptyset=f(S)
+2. f(\{x\}) is singleton for all x \in S.
+3. f(X)= \cup_{x\in S\} f(\{x\}).
+class of such functions we call F_U(S).
